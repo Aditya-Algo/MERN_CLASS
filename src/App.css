@@ -1,0 +1,138 @@
+.App {
+
+  body {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWZLnxi6nfh4LSedsv7h49UT0D4i5QCE4RF_rsRcjx7Zt1eJuuG4I7Ybw&s');
+      background-size: cover;
+      background-position: center;
+      font-family: 'Arial', sans-serif;
+      color: white;
+  }
+
+  header {
+      background-color: rgba(0, 123, 255, 0.8); /* Transparent background */
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+  }
+
+  .card {
+      border-radius: 10px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+      transform: scale(1.05);
+  }
+
+  .card-img-top {
+      border-radius: 10px 10px 0 0;
+  }
+
+  .card-body {
+      padding: 15px;
+  }
+
+  .container {
+      margin-top: 50px;
+      color: rgba(10, 10, 10, 0.89);
+  }
+
+  .table-container {
+      margin-top: 30px;
+  }
+
+  .login-form-container {
+      margin-top: 50px;
+      display: none; /* Hidden by default */
+  }
+
+  .login-form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #fff;
+  }
+
+  .login-form input {
+      margin-bottom: 15px;
+  }
+
+  .services-container {
+      display: none;
+      margin-top: 30px;
+  }
+
+  .modal-body p {
+      font-size: 1.2rem;
+  }
+
+  .footer {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+
+
+  .btn-custom {
+      background-color: #007bff;
+      color: white;
+  }
+
+  .alert {
+      font-size: 1.1rem;
+  }
+
+
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: #ff5733;
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
