@@ -6,17 +6,17 @@ export default function Top() {
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">
-            Active
+            Home
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            Services
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            About US
           </a>
         </li>
         <li className="nav-item">
@@ -26,7 +26,7 @@ export default function Top() {
             tabIndex={-1}
             aria-disabled="true"
           >
-            Disabled
+            Contact US
           </a>
         </li>
       </ul>
